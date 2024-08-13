@@ -328,7 +328,8 @@ val GitHubApps = listOf(
     GitHubApp("com.github.andreyasadchy.xtra", "crackededed", "Xtra"),
     GitHubApp("com.deniscerri.ytdl", "deniscerri", "ytdlnis"),
     GitHubApp("com.yubico.yubioath", "Yubico", "yubioath-flutter"),
-    GitHubApp("com.zulipmobile", "zulip", "zulip-mobile")
+    GitHubApp("com.zulipmobile", "zulip", "zulip-mobile"),
+    GitHubApp("com.vivaintra.tv3", "vivaweb", "vivaintra-tv")
 )
 
 fun contains(text: String) = Regex("^.*$text.*\$")

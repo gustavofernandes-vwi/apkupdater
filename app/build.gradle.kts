@@ -13,7 +13,7 @@ android {
 
     val buildNumber = System.getenv("BUILD_NUMBER").orEmpty()
     defaultConfig {
-        applicationId = "com.apkupdater" + System.getenv("BUILD_TAG").orEmpty()
+        applicationId = "br.com.vivaworks.apkupdater" + System.getenv("BUILD_TAG").orEmpty()
         minSdk = 21
         targetSdk = 34
         versionCode = 52
